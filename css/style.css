@@ -128,3 +128,14 @@ client part css start
   border-radius: 20px;
   box-shadow: var(--neoshadow);
 }
+footer {
+  background: #0b0d17;
+}
+.gtapp {
+  color: #d9dbe1;
+  font-size: 18px;
+}
+.copytxt {
+  color: #d9dbe1;
+  font-size: 14px;
+}
