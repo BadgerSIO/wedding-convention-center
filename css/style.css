@@ -2,6 +2,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
+  background: #ecf0f3;
 }
 .ci2 {
   position: relative;
@@ -64,9 +65,8 @@ body {
   text-align: left;
   border-radius: 20px;
   padding: 15px 0;
-  margin-bottom: 20px;
-  background: #ffffff;
-  box-shadow: 20px 20px 80px #f0f0f0, -20px -20px 80px #ffffff;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 15px #cbced1, -13px -13px 20px #fff;
   z-index: 10;
 }
 .card-title h4 {
@@ -106,4 +106,12 @@ body {
 .card:hover svg {
   fill: #ffffff !important;
   margin-right: 5px;
+}
+/* ------------------
+client part css start 
+ ------------------*/
+.client{
+  border-radius: 20px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
