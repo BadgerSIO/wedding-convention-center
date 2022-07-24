@@ -43,6 +43,10 @@ body {
   .album_txt {
     font-size: 14px;
   }
+
+  .card {
+    width: 332px;
+  }
 }
 .album {
   position: relative;
@@ -54,4 +58,52 @@ body {
   top: 10px;
   border-left: 6px solid #3f87f5;
   border-radius: 0;
+}
+.card {
+  border: none;
+  text-align: left;
+  border-radius: 20px;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: #ffffff;
+  box-shadow: 20px 20px 80px #f0f0f0, -20px -20px 80px #ffffff;
+  z-index: 10;
+}
+.card-title h4 {
+  font-size: 36px;
+  color: #231d4f;
+  font-weight: 700;
+}
+.card-title h5 {
+  font-size: 28px;
+  color: #231d4f;
+  font-weight: 700;
+}
+.card-text ul {
+  padding-left: 0;
+}
+.card-text li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.card-link {
+  background: #f496d23d;
+  color: #3f87f5;
+}
+.card:hover {
+  background-color: #3f87f5;
+  color: #ffffff !important;
+  box-shadow: 0px 15px 35px #3f87f580;
+  z-index: 11;
+}
+.card:hover .card-title > h4,
+.card:hover .card-title > h5 {
+  color: #ffffff !important;
+}
+.card:hover .card-link {
+  background: #ffffff;
+}
+.card:hover svg {
+  fill: #ffffff !important;
+  margin-right: 5px;
 }
