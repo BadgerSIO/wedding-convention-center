@@ -28,7 +28,7 @@ body {
 }
 @media (max-width: 767px) {
   .carousel-item img {
-    height: 32vh;
+    height: 42vh;
     object-fit: cover;
   }
   .carousel-caption h5 {
@@ -37,4 +37,21 @@ body {
   .carousel-caption p {
     font-size: 12px !important;
   }
+  .album_title {
+    font-size: 19px !important;
+  }
+  .album_txt {
+    font-size: 14px;
+  }
+}
+.album {
+  position: relative;
+}
+.toast {
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  border-left: 6px solid #3f87f5;
+  border-radius: 0;
 }
