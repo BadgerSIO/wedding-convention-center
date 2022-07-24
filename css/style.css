@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.ci2 {
+  position: relative;
+}
+.ci2::after {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.z10 {
+  z-index: 10;
+}
+.py-10 {
+  padding: 100px 0;
+}
+.eoa:hover a {
+  padding-right: 15px !important;
+  transition: padding-right 0.3s ease-in;
+}
