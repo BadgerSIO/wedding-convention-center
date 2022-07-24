@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --neobg: #ecf0f3 !important;
+  --neoshadow: 3px 3px 7px #cbced180, -3px -3px 9px #fff;
+}
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background: #ecf0f3;
+  background: var(--neobg);
 }
 .ci2 {
   position: relative;
@@ -65,17 +69,17 @@ body {
   text-align: left;
   border-radius: 20px;
   padding: 15px 0;
-  background: #ecf0f3;
-  box-shadow: 13px 13px 15px #cbced1, -13px -13px 20px #fff;
+  background: var(--neobg);
+  box-shadow: var(--neoshadow);
   z-index: 10;
 }
 .card-title h4 {
-  font-size: 36px;
+  font-size: 32px;
   color: #231d4f;
   font-weight: 700;
 }
 .card-title h5 {
-  font-size: 28px;
+  font-size: 25px;
   color: #231d4f;
   font-weight: 700;
 }
@@ -94,6 +98,7 @@ body {
   background-color: #3f87f5;
   color: #ffffff !important;
   box-shadow: 0px 15px 35px #3f87f580;
+  transition: box-shadow 0.5s ease;
   z-index: 11;
 }
 .card:hover .card-title > h4,
@@ -112,6 +117,14 @@ client part css start
  ------------------*/
 .client {
   border-radius: 20px;
-  background: #ecf0f3;
-  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  background: var(--neobg);
+  box-shadow: var(--neoshadow);
+}
+/* faq css start 
+ */
+.accordion {
+  --bs-accordion-bg: var(--neobg);
+  --bs-accordion-border-width: 0;
+  border-radius: 20px;
+  box-shadow: var(--neoshadow);
 }
