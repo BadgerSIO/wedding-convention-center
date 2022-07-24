@@ -26,3 +26,15 @@ body {
   padding-right: 15px !important;
   transition: padding-right 0.3s ease-in;
 }
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 42vh;
+    object-fit: cover;
+  }
+  .carousel-caption h5 {
+    font-size: 22px !important;
+  }
+  .carousel-caption p {
+    font-size: 12px !important;
+  }
+}
