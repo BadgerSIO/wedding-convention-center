@@ -28,7 +28,7 @@ body {
 }
 @media (max-width: 767px) {
   .carousel-item img {
-    height: 42vh;
+    height: 32vh;
     object-fit: cover;
   }
   .carousel-caption h5 {
